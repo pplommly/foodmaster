@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.font{
+  font-family: 'supermarketregular';
+}
+
+.size{
+  font-size: 16px;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./image/1.png');
+    height: 100vh;
+}
+.w3-white{
+  color: aliceblue;
+}
+#myNavbar{
+  color: #fff;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://scontent.fbkk1-3.fna.fbcdn.net/v/t1.15752-9/31961549_1694143427299872_4857525234871304192_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=bbfeb106aacdd4786786c9100b30c6c1&oe=5B85F8EC");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+a.w3-bar-item.w3-button{
+  font-size: 25px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@font-face {
+  font-family: 'supermarketregular';
+  src: url('supermarket-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
