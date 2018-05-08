@@ -12,7 +12,7 @@ fontawesome.library.add(solid.faUser)
 class App extends Component {
   render() {
     return (
-    <div class="font">
+    <div class="font2">
       <div class="w3-top">
         <div class="w3-bar" id="myNavbar">
           <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="" onclick="toggleFunction()" title="Toggle Navigation Menu">
@@ -41,18 +41,18 @@ class App extends Component {
       <div class="w3-content w3-container w3-padding-64" id="about">
       <ScrollAnimation animateIn="fadeIn">
         <h2 class="w3-center">ABOUT ME</h2>
-        <h3 class="w3-center"><em>เครื่องแกง</em></h3><br></br>
-        <h5>เครื่องแกง เป็นวัตถุดิบต่างๆที่จำเป็นต่อการปรุงอาหาร หรือส่วนผสมที่นำมาผสมผสานกันเพื่อให้เกิดรสชาติใหม่ นั่นก็คือ "น้ำพริกแกง" ที่ทำให้อาหารประเภทแกง รสกลมกล่อม กลิ่นหอม อร่อย ซึ่งจะมีรสชาติ เค็ม เผ็ด เปรั้ยว และหวาน แต่ละประเภทจะแตกต่างกันไปตามการปรุง.
+        <h3 class="w3-center font"><em>เครื่องแกง</em></h3><br></br>
+        <h5 class=" font">เครื่องแกง เป็นวัตถุดิบต่างๆที่จำเป็นต่อการปรุงอาหาร หรือส่วนผสมที่นำมาผสมผสานกันเพื่อให้เกิดรสชาติใหม่ นั่นก็คือ "น้ำพริกแกง" ที่ทำให้อาหารประเภทแกง รสกลมกล่อม กลิ่นหอม อร่อย ซึ่งจะมีรสชาติ เค็ม เผ็ด เปรั้ยว และหวาน แต่ละประเภทจะแตกต่างกันไปตามการปรุง.
         </h5>
         <br></br>
         <div class="w3-row">
-          <div class="w3-col m6 w3-center w3-padding-large">
+          <div class="w3-col m6 w3-center w3-padding-large  font">
           <br></br>
           <h4><b><i class="fa fa-asterisk w3-margin-right"></i>ส่วนประกอบ</b></h4>
           <br></br>
             <img src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/31958771_1694186803962201_3261355344311353344_n.jpg?_nc_fx=fbkk1-5&_nc_cat=0&oh=048c5c0ecdcd0ac6cb16f07c20198306&oe=5B888757" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333" />
           </div>
-          <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <div class="w3-col m6 w3-hide-small w3-padding-large font">
             <br></br>
             <br></br>
             <br></br>
@@ -74,7 +74,7 @@ class App extends Component {
         </div>
         <br></br>
         <br></br>
-        <div class="w3-row">
+        <div class="w3-row font">
           <div class="w3-col m6 w3-hide-small w3-padding-large">
             <br></br>
             <br></br>
@@ -98,31 +98,12 @@ class App extends Component {
             </h6>
           </div>
           <div class="w3-col m6 w3-center w3-padding-large">
-          <h4><b><i class="fa fa-asterisk w3-margin-right"></i>ประเภทของแกง</b></h4><br></br>
+          <h4><b><i class="fa fa-asterisk w3-margin-right font"></i>ประเภทของแกง</b></h4><br></br>
             <img src="https://scontent.fbkk1-4.fna.fbcdn.net/v/t1.15752-9/31958343_1694223377291877_4482626047933677568_n.jpg?_nc_fx=fbkk1-5&_nc_cat=0&oh=c0bad4f560420a3438e0298344f3ff57&oe=5B958681" 
             class="w3-round w3-image w3-opacity w3-hover-opacity-off" onclick="onClick(this)" alt="The mist over the mountains" width="400" height="333" />
           </div>
         </div>
       </ScrollAnimation>
-      </div>
-      <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">14+</span><br></br>
-         Partners
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">55+</span><br></br>
-         Projects Done
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">89+</span><br></br>
-         Happy Clients
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">150+</span><br></br>
-         Meetings
-        </div>
       </div>
 
       <div class="bgimg-2 w3-display-container">
