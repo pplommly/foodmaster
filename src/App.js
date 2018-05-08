@@ -3,6 +3,8 @@ import './App.css';
 import 'w3-css/w3.css';
 import fontawesome from '@fortawesome/fontawesome'
 import solid from '@fortawesome/fontawesome-free-solid'
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // Add the icon to the library so you can use it in your page
 fontawesome.library.add(solid.faUser)
@@ -35,8 +37,9 @@ class App extends Component {
       <div class="bgimg-1 w3-display-container" id="home">
       
       </div>
-
+      
       <div class="w3-content w3-container w3-padding-64" id="about">
+      <ScrollAnimation animateIn="fadeIn">
         <h2 class="w3-center">ABOUT ME</h2>
         <h3 class="w3-center"><em>เครื่องแกง</em></h3><br></br>
         <h5>เครื่องแกง เป็นวัตถุดิบต่างๆที่จำเป็นต่อการปรุงอาหาร หรือส่วนผสมที่นำมาผสมผสานกันเพื่อให้เกิดรสชาติใหม่ นั่นก็คือ "น้ำพริกแกง" ที่ทำให้อาหารประเภทแกง รสกลมกล่อม กลิ่นหอม อร่อย ซึ่งจะมีรสชาติ เค็ม เผ็ด เปรั้ยว และหวาน แต่ละประเภทจะแตกต่างกันไปตามการปรุง.
@@ -96,8 +99,8 @@ class App extends Component {
             <img src="https://scontent.fbkk1-4.fna.fbcdn.net/v/t1.15752-9/31958343_1694223377291877_4482626047933677568_n.jpg?_nc_fx=fbkk1-5&_nc_cat=0&oh=c0bad4f560420a3438e0298344f3ff57&oe=5B958681" 
             class="w3-round w3-image w3-opacity w3-hover-opacity-off" onclick="onClick(this)" alt="The mist over the mountains" width="400" height="333" />
           </div>
-          
         </div>
+      </ScrollAnimation>
       </div>
       <div class="w3-row w3-center w3-dark-grey w3-padding-16">
 
