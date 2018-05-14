@@ -8,6 +8,7 @@ import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
+
 // Add the icon to the library so you can use it in your page
 fontawesome.library.add(solid.faUser)
 
@@ -138,24 +139,65 @@ class App extends Component {
          </ScrollAnimation>
         </div>
       </div>
-
-      <div class="bgimg-2 w3-display-container" >
+      
+      <div class="bgimg-2 w3-display-container"  id="contact">
         <div class="w3-display-middle">
           <span class="w3-xxlarge w3-text-white w3-wide">CONTRACT</span>
         </div>
       </div>
-      <div class="w3-content w3-container w3-padding-64" id="contact">
+      
+      <div class="w3-content w3-container w3-padding-64">
+      <ScrollAnimation animateIn="fadeIn">
+      <center>
+      <div class="w3-row w3-padding-32 w3-section">
         <h3 class="w3-center">MY RESTURANT</h3>
         <p class="w3-center"><em>I'd love your feedback!</em></p>
-        <div class="w3-col m8 w3-panel">
+        <div class="w3-col w3-panel">
           <div class="w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br></br>
-            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br></br>
-            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br></br>
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bangkok, Thailand<br></br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +6663-516-1829<br></br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ZabsD@gmail.com<br></br>
           </div>
             <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-        </div>   
+            <form>
+              <div class="w3-row-padding">
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" />
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" />
+                </div>
+              </div>
+              <br></br>
+              <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message" />
+              <button class="w3-button w3-black w3-right w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </form>
+            <div class="w3-col  w3-container" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.098276793865!2d100.49281881474823!3d13.65178540328158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a251bb6b0cf1%3A0xf656e94ff13324ad!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LmA4LiX4LiE4LmC4LiZ4LmC4Lil4Lii4Li14Lie4Lij4Liw4LiI4Lit4Lih4LmA4LiB4Lil4LmJ4Liy4LiY4LiZ4Lia4Li44Lij4Li1!5e0!3m2!1sth!2sth!4v1526324662400" 
+              width="800" height="400" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+      </div>
+      </center>
+         </ScrollAnimation>   
       </div>  
+
+      <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+          <i class="fa fa-Facebook w3-hover-opacity"></i>
+          <i class="fa fa-Instagram w3-hover-opacity"></i>
+          <i class="fa fa-Snapchat w3-hover-opacity"></i>
+          <i class="fa fa-Pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-Twitter w3-hover-opacity"></i>
+          <i class="fa fa-Linkedin w3-hover-opacity"></i>
+        </div>
+        <p> Powered by Zabs D </p>
+      </footer>
+
     </div>
     );
   }
