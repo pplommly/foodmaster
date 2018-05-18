@@ -114,20 +114,26 @@ class Home extends Component {
                 <center>
                   <img id="text1" src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/32456690_1700715493309332_1684494239439781888_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=f06a48687738c6a882d0095c047f8a24&oe=5B9B2146"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="120" height="0" />
-                    <Link to="/firstm">
+                    <Link to="/Keawwan">
                   <img id="img1" src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/32555225_2055233191416559_1687662666878812160_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeF6WfIkC5ZoXIEactUqScgy83lbtFUf5niMvu4tf2UPuQC0MkV94rKAHSYn0Z3JbOgQFaC17DykbULtHRJ9X54k4pmXcQzb3lkfy7ZP9HF2vg&oh=7fab479c55cfadb4a682cfa356d28220&oe=5B7E8055"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="330" height="330" />
                     </Link>
+                    <Link to="/Tomyum">    
                   <img id="img2" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.15752-0/p240x240/32581996_2055233204749891_5614855448080416768_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeHsvCuIisMnCheLuXOOf04l9XkvhuYZNyFUh5mjoOKckDNlwmFEGDodtctAwcil8JQeyDxoGapCwNwoV2BqovOlYpT13CBJhc35kydnhsPFXw&oh=cd7d15000d73e56bba16487f620253fd&oe=5B7EBDE0"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="342" height="342" />
+                    </Link>  
                   <img id="text2" src="https://scontent.fbkk1-5.fna.fbcdn.net/v/t1.15752-9/32558025_1700715506642664_7734842840005476352_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=73f17f302596d0c1cee8feac13d770cc&oe=5B523A18"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="120" height="0" />
                   <img id="text3" src="https://scontent.fbkk1-5.fna.fbcdn.net/v/t1.15752-9/32430377_1700715486642666_2766852321886339072_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=427166495cd6aaacf3b23833f93247ae&oe=5B5410D8"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="120" height="0" />
+                    <Link to="/Kangped"> 
                   <img id="img3" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.15752-0/p240x240/32583354_2055233201416558_7598638857134800896_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeFVHGN22DuEH0RguzQdhEeaNUAm7Qi4TfSCJ2Aht30b7v2pFJyrBcoO0qcq2tyMN731NcuAmUwqv119lEXKjXiYVZRwnsOYGzMwARzKPoVCaw&oh=68a3e6e78ffaac874eb032d38fcb5911&oe=5B505365"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="330" height="330" />
+                    </Link>  
+                    <Link to="/Kangleang"> 
                   <img id="img4" src="https://scontent.fbkk1-3.fna.fbcdn.net/v/t1.15752-0/s261x260/32402362_2055233188083226_2147875632485236736_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeGUa-E8zpHC1nFpVWksYUiw2M_VtlehQJkg73KUoAVjktFpjM9P27cA0z88LAkMtLmfFgT06BKoYzjLWNRettBxY1Q03UP-qqNppz940ZPgLA&oh=f5f730b50b1c3e1f5c5cd39e1f4284ed&oe=5B9712B8"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="345" height="345" />
+                    </Link>  
                   <img id="text4" src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/32669007_1700715499975998_694969903706275840_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=8ca728fba3846c99212f09f42ea3c023&oe=5B7D9AAD"
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="120" height="0" />
                 </center>

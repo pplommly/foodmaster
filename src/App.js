@@ -7,9 +7,10 @@ import solid from '@fortawesome/fontawesome-free-solid'
 import "animate.css/animate.min.css";
 import { Route } from 'react-router-dom'
 import Home from './pages/Home';
-import Firstm from './pages/Firstm'
-
-
+import Keawwan from './pages/Keawwan'
+import Tomyum from './pages/Tomyum'
+import Kangped from './pages/Kangped'
+import Kangleang from './pages/Kangleang'
 
 
 // Add the icon to the library so you can use it in your page
@@ -24,7 +25,10 @@ class App extends Component {
         <div>
 
           <Route exact path="/" component={Home} />
-          <Route path="/firstm" component={Firstm} />
+          <Route path="/Keawwan" component={Keawwan} />
+          <Route path="/Tomyum" component={Tomyum} />
+          <Route path="/Kangped" component={Kangped} />
+          <Route path="/Kangleang" component={Kangleang} />
 
 
          
