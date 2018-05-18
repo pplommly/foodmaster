@@ -141,9 +141,9 @@ class Home extends Component {
             </div>
           </div>
 
-          <div class="bgimg-2 w3-display-container" id="contact">
+          <div class="bgimg-3 w3-display-container" id="contact">
             <div class="w3-display-middle">
-              <span class="w3-xxlarge w3-text-white w3-wide">CONTRACT</span>
+              <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
             </div>
           </div>
 
