@@ -6,7 +6,7 @@ import fontawesome from '@fortawesome/fontawesome'
 import solid from '@fortawesome/fontawesome-free-solid'
 import "animate.css/animate.min.css";
 import { Route } from 'react-router-dom'
-import Home from './pages/Home';
+import Home1 from './pages/Home1';
 import Keawwan from './pages/Keawwan'
 import Tomyum from './pages/Tomyum'
 import Kangped from './pages/Kangped'
@@ -24,7 +24,7 @@ class App extends Component {
 
         <div>
 
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Home1} />
           <Route path="/Keawwan" component={Keawwan} />
           <Route path="/Tomyum" component={Tomyum} />
           <Route path="/Kangped" component={Kangped} />

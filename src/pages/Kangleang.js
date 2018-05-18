@@ -18,7 +18,7 @@ class Kangleang extends Component {
                         <Link to="/" class="w3-bar-item w3-button" id="menu">HOME</Link>
                         <a href="#about" class="w3-bar-item w3-button w3-hide-small" id="menu"><i class="fa fa-user"></i> ABOUT</a>
                         <a href="#Howto" class="w3-bar-item w3-button w3-hide-small" id="menu"><i class="fa fa-th"></i> HOW TO</a>
-                        <a href="#contact" class="w3-bar-item w3-button w3-hide-small" id="menu"><i class="fa fa-envelope"></i> COMMENT</a>
+                        <a href="#Comment" class="w3-bar-item w3-button w3-hide-small" id="menu"><i class="fa fa-envelope"></i> COMMENT</a>
                         <a href="" class="w3-bar-item w3-button w3-right w3-hide-small w3-hover-red" id="menu">
                             <i class="fa fa-search"></i>
                         </a>
@@ -121,6 +121,11 @@ class Kangleang extends Component {
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ixg9AhMywq8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </center>
                         </ScrollAnimation>
+                    </div>
+                </div>
+                <div class="bgimg-2 w3-display-container" id="Comment">
+                    <div class="w3-display-middle">
+                        <span class="w3-xxlarge w3-text-white w3-wide">COMMENT</span>
                     </div>
                 </div>
             </div>
