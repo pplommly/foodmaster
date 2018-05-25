@@ -109,6 +109,7 @@ class Home extends Component {
           </div>
 
           <div class="w3-content w3-container w3-padding-64">
+          <ScrollAnimation animateIn="fadeIn">
             <div>
                 <center>
                   <img id="text1" src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/32456690_1700715493309332_1684494239439781888_n.png?_nc_fx=fbkk1-5&_nc_cat=0&oh=f06a48687738c6a882d0095c047f8a24&oe=5B9B2146"
@@ -137,6 +138,7 @@ class Home extends Component {
                     class="w3-round w3-image " onclick="onClick(this)" alt="The mist over the mountains" width="120" height="0" />
                 </center>
             </div>
+            </ScrollAnimation>
           </div>
 
           <div class="bgimg-3 w3-display-container" id="contact">

@@ -32,7 +32,7 @@ class Kangleang extends Component {
 
 
                 </div>
-                <div class="bgimg-1 w3-display-container" id="home">
+                <div class="bgimg-4 w3-display-container" id="home">
 
                 </div>
 
@@ -58,7 +58,7 @@ class Kangleang extends Component {
                             <div class="w3-col m6 w3-center w3-padding-large  font">
                                 <br></br>
                                 <br></br>
-                                <img src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/31958771_1694186803962201_3261355344311353344_n.jpg?_nc_fx=fbkk1-5&_nc_cat=0&oh=048c5c0ecdcd0ac6cb16f07c20198306&oe=5B888757" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333" />
+                                <img src="https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/33298760_1709770225737192_2694143159834771456_n.jpg?_nc_cat=0&oh=11f2522174501a8102ae4e4eb0bc2161&oe=5B78891A" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333" />
                             </div>
 
                         </div>
@@ -115,6 +115,14 @@ class Kangleang extends Component {
 
                             </div>
                             <h3><ins>วิธีทำ</ins></h3>
+                            <br></br>
+                            <h6 class="size font">
+                                1. โขลกเครื่องพริกแกงทั้งหมดเข้าด้วยกันจนละเอียด พักไว้ก่อน <br></br>
+                                2. หั่นฟักทอง ชิ้นหนา 1 นิ้ว , บวบงู-ข้าวโพดอ่อน-เห็ดหั่นเฉียง <br></br>
+                                3. ตั้งน้ำซุปให้เดือด เติมเครื่องแกงที่โขลกไว้แล้วลงไป ตามด้วยฟักทอง ปิดฝาไว้ 10 นาที <br></br>
+                                4. เติมข้าวโพดอ่อน , บวบ , กุ้ง ปรุงรสด้วยเกลือ ,น้ำตาล , น้ำปลา <br></br>
+                                5. เติมเห็ดลงไป ตามด้วยใบแมงลัก เป็นอันเสร็จ <br></br>
+                            </h6>
                             <br></br>
                             <br></br>
                             <center>

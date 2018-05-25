@@ -39,7 +39,7 @@
   font-size: 16px;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,6 +73,18 @@
     min-height: 400px;
 }
 
+/* Fourth image (Contact) */
+.bgimg-4 {
+  background-image: url("https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/33601741_1709809942399887_6624257270416932864_n.png?_nc_cat=0&oh=1bfb4070756b0e0f3ef9cb9e199855ed&oe=5B947A7B");
+  height: 100vh;
+}
+
+/* Fifth image (Contact) */
+.bgimg-5 {
+  background-image: url("https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/33467131_1709804295733785_7859259826298159104_n.png?_nc_cat=0&oh=24d88ff35e66165a611d3cf168014326&oe=5BBFA7E1");
+  height: 100vh;
+}
+
 a.w3-bar-item.w3-button{
   font-size: 25px;
 }
@@ -81,7 +93,7 @@ a.w3-bar-item.w3-button{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
         background-attachment: scroll;
     }
 }
