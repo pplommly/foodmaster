@@ -39,7 +39,7 @@
   font-size: 16px;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,19 @@
 
 /* Fifth image (Contact) */
 .bgimg-5 {
-  background-image: url("https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/33467131_1709804295733785_7859259826298159104_n.png?_nc_cat=0&oh=24d88ff35e66165a611d3cf168014326&oe=5BBFA7E1");
+  background-image: url("https://scontent.fbkk1-5.fna.fbcdn.net/v/t1.15752-9/33422679_1710864812294400_3140202679192518656_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeEmYsgiFgDAisJIFXpGm8NpErED7WqaXsngl8Gcu0EG10bWg08gIH_pxsU2MUa9pl1mvrPNfQd48JcSCMRsJ9kQokEgBGIcIkem5EXz5LLKqg&oh=b114769c6a431ae6d25904603693beb0&oe=5B804212");
+  height: 100vh;
+}
+
+/* sixth image (Contact) */
+.bgimg-6 {
+  background-image: url("https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/33304129_1709804302400451_4422803110620037120_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeHznklGTnzQBLeGBfmpOCBfRLGNiDqZf8AKNEDQGHNKBOCpagCMXi4Dw226WSHRLRlMPLGScoI4bZfTV52qIbKh0h7SjOPkDnEV6n6wf33hag&oh=91f30652fae7fedf9d50b4d4363b21da&oe=5B934369");
+  height: 100vh;
+}
+
+/* seventh image (Contact) */
+.bgimg-7 {
+  background-image: url("https://scontent.fbkk1-3.fna.fbcdn.net/v/t1.15752-9/33475112_1709804289067119_8875450840878415872_n.png?_nc_fx=fbkk1-5&_nc_cat=0&_nc_eui2=AeEB9VAS3iKd3TpT8_VMprOfKLe8JibO8P_UdVxX_opKjVzx3udCZa_ftpZ1xF8LbRRliVLwvBYUXvmDUuk5szHASto5G8wDaXJyNYVF33iaJw&oh=2e1358e80f14aae04e61098e0bb84a76&oe=5B78E5DB");
   height: 100vh;
 }
 
@@ -93,7 +105,7 @@ a.w3-bar-item.w3-button{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
         background-attachment: scroll;
     }
 }

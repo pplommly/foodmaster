@@ -73,8 +73,6 @@ class Home extends Component {
               <div class="w3-row font">
                 <div class="w3-col m6 w3-hide-small w3-padding-large">
                   <br></br>
-                  <br></br>
-                  <br></br>
                   <h4><ins> ประเภทของแกง </ins></h4>
                   <br></br>
 
