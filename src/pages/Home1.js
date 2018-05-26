@@ -52,8 +52,8 @@ class Home extends Component {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <h4><ins>ประกอบไปด้วย วัตถุดิบต่างๆดังนี้</ins></h4><br></br>
-                  <h6 class="size"><ul>
+                  <h4><ins class="size font">ประกอบไปด้วย วัตถุดิบต่างๆดังนี้</ins></h4><br></br>
+                  <h6 class="size font"><ul>
                     <li> พริกแห้ง แยกได้เป็นสองชนิดคือ พริกแห้งเม็ดใหญ่ และพริกขี้หนูแห้ง </li>
                     <li> ผิวมะกรูด </li>
                     <li> ตะไคร้ </li>
@@ -71,12 +71,12 @@ class Home extends Component {
               <br></br>
               <br></br>
               <div class="w3-row font">
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <div class="w3-col m6 w3-hide-small w3-padding-large font">
                   <br></br>
-                  <h4><ins> ประเภทของแกง </ins></h4>
+                  <h4><ins class="size font"> ประเภทของแกง </ins></h4>
                   <br></br>
 
-                  <h6 class="size">
+                  <h6 class="size font">
                     แบ่งออกเป็น 2 ประเภทใหญ่ คือ
             <br></br>
                     1. แกงใส่กะทิ แบ่งได้เป็น 2 ชนิด <br></br>
@@ -102,7 +102,7 @@ class Home extends Component {
 
           <div class="bgimg-2 w3-display-container" id="Menu">
             <div class="w3-display-middle">
-              <span class="w3-xxlarge w3-text-white w3-wide">MENU</span>
+              <span class="w3-xxxlarge w3-text-white w3-wide">MENU</span>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ class Home extends Component {
 
           <div class="bgimg-3 w3-display-container" id="contact">
             <div class="w3-display-middle">
-              <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+              <span class="w3-xxxlarge w3-text-black w3-wide">CONTACT</span>
             </div>
           </div>
 

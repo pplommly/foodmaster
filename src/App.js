@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import './App.css';
 import './hover.js';
 import 'w3-css/w3.css';
-import fontawesome from '@fortawesome/fontawesome'
-import solid from '@fortawesome/fontawesome-free-solid'
+import fontawesome from '@fortawesome/fontawesome';
+import solid from '@fortawesome/fontawesome-free-solid';
 import "animate.css/animate.min.css";
-import { Route, Switch } from 'react-router-dom'
+import { Route,Router } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import ScrollToTopRoute from './ScrollToTopRoute.js'
 import Home1 from './pages/Home1';
-import Keawwan from './pages/Keawwan'
-import Tomyum from './pages/Tomyum'
-import Kangped from './pages/Kangped'
-import Kangleang from './pages/Kangleang'
+import Keawwan from './pages/Keawwan';
+import Tomyum from './pages/Tomyum';
+import Kangped from './pages/Kangped';
+import Kangleang from './pages/Kangleang';
 
 
 
@@ -23,13 +25,11 @@ class App extends Component {
     return (
       <div class="font2">
         <div>
-          <Switch>
-          <Route exact path="/"  component={Home1} onUpdate={() => window.scrollTo(0, 0)} />
-          <Route path="/Keawwan" component={Keawwan} onUpdate={() => window.scrollTo(0, 0)} />
-          <Route path="/Tomyum" component={Tomyum} onUpdate={() => window.scrollTo(0, 0)} />
-          <Route path="/Kangped"  component={Kangped} onUpdate={() => window.scrollTo(0, 0)} />
-          <Route path="/Kangleang" component={Kangleang} onUpdate={() => window.scrollTo(0, 0)} />
-          </Switch>
+          <ScrollToTopRoute exact path="/"  component={Home1} />
+          <ScrollToTopRoute path="/Keawwan" component={Keawwan} />
+          <ScrollToTopRoute path="/Tomyum" component={Tomyum} />
+          <ScrollToTopRoute path="/Kangped"  component={Kangped} />
+          <ScrollToTopRoute path="/Kangleang" component={Kangleang} />
         </div>
         <footer class="w3-center w3-black w3-padding-64">
           <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>

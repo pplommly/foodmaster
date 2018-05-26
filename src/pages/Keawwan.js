@@ -53,7 +53,7 @@ class Keawwan extends Component {
                                 <br></br>
                                 <br></br>
                                 <br></br>
-                                <img src="https://scontent.fbkk1-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/31958771_1694186803962201_3261355344311353344_n.jpg?_nc_fx=fbkk1-5&_nc_cat=0&oh=048c5c0ecdcd0ac6cb16f07c20198306&oe=5B888757" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333" />
+                                <img src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/33610133_1711530515561163_7975452113427759104_n.jpg?_nc_cat=0&_nc_eui2=AeEk0jr8lW3EbMqVuLYTlulPyzm5EfFWdvmvSFPW_BBXImWSPB1na7hvgtIbBMGilf_Ra9zKS7Rp5yHomA0khxgtS6T1Aj5UNzsTdLDlLwiTPg&oh=9275f6343ccb5fe62d98dbcdef6e1ce1&oe=5B8243E2" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333" />
                             </div>
 
                         </div>
@@ -61,9 +61,9 @@ class Keawwan extends Component {
                         <br></br>
                     </ScrollAnimation>
                 </div>
-                <div class="bgimg-2 w3-display-container" id="Howto">
+                <div class="bgimg-8 w3-display-container" id="Howto">
                     <div class="w3-display-middle">
-                        <span class="w3-xxlarge w3-text-white w3-wide">HOW TO</span>
+                        <span class="w3-xxxlarge w3-text-black w3-wide">HOW TO</span>
                     </div>
                 </div>
                 <div class="w3-content w3-container w3-padding-64">
@@ -124,14 +124,15 @@ class Keawwan extends Component {
                             2.	 ตั้งหม้อ ใส่หัวกะทิ ผัดกับพริกแกงเขียวหวาน ใช้ไฟอ่อน คอยคนจนกะทิแตกมัน ใส่เนื้อไก่ ใบมะกรูดฉีก ผัดต่อจนไก่เริ่มสุก ใส่หางกะทิ รอเดือด ปรุงรสด้วยน้ำปลาและน้ำตาลปี๊บ ใส่มะเขือเปราะ รอเดือด ใบโหระพา พริกชี้ฟ้าแดงหั่นแฉลบ ปิดไฟ ตักเสิร์ฟ
                             </h6>
                             <center>
+                            <br></br>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/CPZQTfYDtP0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </center>
                         </ScrollAnimation>
                     </div>
                 </div>
-                <div class="bgimg-2 w3-display-container" id="Comment">
+                <div class="bgimg-9 w3-display-container" id="Comment">
                     <div class="w3-display-middle">
-                        <span class="w3-xxlarge w3-text-white w3-wide">COMMENT</span>
+                        <span class="w3-xxxlarge w3-text-white w3-wide">COMMENT</span>
                     </div>
                 </div>
             </div>

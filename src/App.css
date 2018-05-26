@@ -39,7 +39,7 @@
   font-size: 16px;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 
 /* Fourth image (Contact) */
 .bgimg-4 {
-  background-image: url("https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/33601741_1709809942399887_6624257270416932864_n.png?_nc_cat=0&oh=1bfb4070756b0e0f3ef9cb9e199855ed&oe=5B947A7B");
+  background-image: url("https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/33601741_1709809942399887_6624257270416932864_n.png?_nc_cat=0&_nc_eui2=AeE8zt3vHAcXtgqF6L4igKYkFvZwMOkG3Lok5SIc9hgKQSjQktmj2BcwWQU7LDzWyl-zSLWfg33sHBVDobEoivdzPAmoW5l4JlZH7PNf8un7yA&oh=822d9f443d4a12b92d40f639da61d160&oe=5BBC077B");
   height: 100vh;
 }
 
@@ -97,6 +97,18 @@
   height: 100vh;
 }
 
+/* seventh image (Contact) */
+.bgimg-8 {
+  background-image: url("https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/33424604_1711521348895413_3926499977206956032_n.jpg?_nc_cat=0&_nc_eui2=AeGDVtJKlYHwq7h0B5jQcaQ7yUd8lup57JDnw2L9LscNXtzHzvMtLQLI3TneK_uPrZxZI29cI7ugnLmNBv9X-Bk9ffhBitmlqtVY8aZzLx6OMg&oh=1e3a594f005bf2ffb9b68ab9d8235226&oe=5B88CA40");
+  min-height: 400px;
+}
+
+/* seventh image (Contact) */
+.bgimg-9 {
+  background-image: url("https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/33540373_1865787136812032_5022146576798187520_n.jpg?_nc_cat=0&_nc_eui2=AeH4-si0FsTrBKOguP8R4lnrOLx1H6vD2UpjeyW1QZxCc-Gq80LuiTarwDjlMFc6FP4TjCcaUIZstv96BwarBKuKMogmgo4HE2BDJjaM-jq5PA&oh=dd2323f15674d7beaff20146647c14e6&oe=5B935CE6");
+  min-height: 400px;
+}
+
 a.w3-bar-item.w3-button{
   font-size: 25px;
 }
@@ -105,7 +117,7 @@ a.w3-bar-item.w3-button{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
         background-attachment: scroll;
     }
 }

@@ -58,9 +58,9 @@ class Tomyum extends Component {
                         <br></br>
                     </ScrollAnimation>
                 </div>
-                <div class="bgimg-2 w3-display-container" id="Howto">
+                <div class="bgimg-8 w3-display-container" id="Howto">
                     <div class="w3-display-middle">
-                        <span class="w3-xxlarge w3-text-white w3-wide">HOW TO</span>
+                        <span class="w3-xxxlarge w3-text-black w3-wide">HOW TO</span>
                     </div>
                 </div>
                 <div class="w3-content w3-container w3-padding-64">
@@ -118,9 +118,9 @@ class Tomyum extends Component {
                         </ScrollAnimation>
                     </div>
                 </div>
-                <div class="bgimg-2 w3-display-container" id="Comment">
+                <div class="bgimg-9 w3-display-container" id="Comment">
                     <div class="w3-display-middle">
-                        <span class="w3-xxlarge w3-text-white w3-wide">COMMENT</span>
+                        <span class="w3-xxxlarge w3-text-white w3-wide">COMMENT</span>
                     </div>
                 </div>
             </div>
